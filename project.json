@@ -1,21 +1,20 @@
 {
-  "name": "Test IS AOps",
-  "projectId": "c9426b85-fcb7-4b1d-989e-910ee018b9ed",
-  "description": "Blank Process",
+  "name": "TestRepo",
+  "description": "Dummy project to trobleshoot pipeline issues",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.Mail.Activities": "[1.21.1]",
-    "UiPath.MicrosoftOffice365.Activities": "[2.6.25]",
-    "UiPath.System.Activities": "[23.10.3]",
-    "UiPath.Testing.Activities": "[23.10.0]",
-    "UiPath.UIAutomation.Activities": "[23.10.7]"
+    "Gaig.Rpa.Library.FilenetActivities": "[2.0.7]",
+    "Gaig.Rpa.Library.SES.DocumentExtraction": "[1.0.34]",
+    "UiPath.Excel.Activities": "[2.16.3]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.System.Activities": "[24.10.4]",
+    "UiPath.UIAutomation.Activities": "[24.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "23.10.3.0",
-  "projectVersion": "1.0.3",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -45,14 +44,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "29dd4110-8a58-43dc-ab93-06403aea02af",
+      "uniqueId": "169d6f90-21da-495b-a665-cb5de839c07b",
       "input": [],
       "output": []
     }
